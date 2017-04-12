@@ -50,7 +50,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addGoalForTeamA"
-                android:text="Goal" />
+                android:text="@string/goal" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -64,7 +64,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_centerVertical="true"
-                    android:text="Shots" />
+                    android:text="@string/shots" />
 
                 <TextView
                     android:id="@+id/team_a_shots_textview"
@@ -98,7 +98,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_centerVertical="true"
-                    android:text="On Target" />
+                    android:text="@string/on_target" />
 
                 <TextView
                     android:id="@+id/team_a_on_target_textview"
@@ -127,7 +127,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addOwnGoalForTeamA"
-                android:text="Own Goal" />
+                android:text="@string/own_goal" />
 
         </LinearLayout>
 
@@ -174,7 +174,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addGoalForTeamB"
-                android:text="Goal" />
+                android:text="@string/goal" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -188,7 +188,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_centerVertical="true"
-                    android:text="Shots" />
+                    android:text="@string/shots" />
 
                 <TextView
                     android:id="@+id/team_b_shots_textview"
@@ -222,7 +222,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_centerVertical="true"
-                    android:text="On Target" />
+                    android:text="@string/on_target" />
 
                 <TextView
                     android:id="@+id/team_b_on_target_textview"
@@ -241,9 +241,7 @@
                     android:onClick="addOnTargetForTeamB"
                     android:text="+"
                     android:textSize="16sp" />
-
             </RelativeLayout>
-
 
             <Button
                 android:layout_width="match_parent"
@@ -252,7 +250,7 @@
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
                 android:onClick="addOwnGoalForTeamB"
-                android:text="Own Goal" />
+                android:text="@string/own_goal" />
         </LinearLayout>
     </LinearLayout>
 
@@ -265,5 +263,5 @@
         android:layout_marginLeft="22dp"
         android:layout_marginRight="22dp"
         android:onClick="resetScore"
-        android:text="Reset" />
+        android:text="@string/reset" />
 </RelativeLayout>
