@@ -20,8 +20,8 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="72dp"
-                android:layout_marginTop="8dp">
+                android:layout_height="@dimen/logo_height"
+                android:layout_marginTop="@dimen/small_activity_vertical_margin">
 
                 <ImageView
                     android:layout_width="match_parent"
@@ -38,7 +38,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
-                android:paddingBottom="24dp"
+                android:paddingBottom="@dimen/large_activity_vertical_margin"
                 android:text="0"
                 android:textSize="56sp"
                 android:textStyle="bold" />
@@ -46,18 +46,18 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                android:layout_marginBottom="@dimen/small_activity_vertical_margin"
+                android:layout_marginLeft="@dimen/large_activity_horizontal_margin"
+                android:layout_marginRight="@dimen/large_activity_horizontal_margin"
                 android:onClick="addGoalForTeamA"
                 android:text="@string/goal" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp">
+                android:layout_marginBottom="@dimen/small_activity_vertical_margin"
+                android:layout_marginLeft="@dimen/large_activity_horizontal_margin"
+                android:layout_marginRight="@dimen/large_activity_horizontal_margin">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -71,14 +71,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginRight="16dp"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
                     android:layout_toLeftOf="@+id/team_a_shots_button"
                     android:text="0" />
 
                 <Button
                     android:id="@+id/team_a_shots_button"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_width="@dimen/square_button_length"
+                    android:layout_height="@dimen/square_button_length"
                     android:layout_alignParentRight="true"
                     android:onClick="addShotForTeamA"
                     android:text="+"
@@ -89,9 +89,9 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp">
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/large_activity_horizontal_margin"
+                android:layout_marginRight="@dimen/large_activity_horizontal_margin">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -105,14 +105,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginRight="16dp"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
                     android:layout_toLeftOf="@+id/team_a_on_target_button"
                     android:text="0" />
 
                 <Button
                     android:id="@+id/team_a_on_target_button"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_width="@dimen/square_button_length"
+                    android:layout_height="@dimen/square_button_length"
                     android:layout_alignParentRight="true"
                     android:onClick="addOnTargetForTeamA"
                     android:text="+"
@@ -123,9 +123,9 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                android:layout_marginBottom="@dimen/small_activity_vertical_margin"
+                android:layout_marginLeft="@dimen/large_activity_horizontal_margin"
+                android:layout_marginRight="@dimen/large_activity_horizontal_margin"
                 android:onClick="addOwnGoalForTeamA"
                 android:text="@string/own_goal" />
 
@@ -134,7 +134,7 @@
         <View
             android:layout_width="1dp"
             android:layout_height="match_parent"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
             android:background="#FFFFFF" />
 
         <LinearLayout
@@ -145,8 +145,8 @@
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="72dp"
-                android:layout_marginTop="8dp">
+                android:layout_height="@dimen/logo_height"
+                android:layout_marginTop="@dimen/small_activity_vertical_margin">
 
                 <ImageView
                     android:layout_width="match_parent"
@@ -162,7 +162,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-light"
                 android:gravity="center_horizontal"
-                android:paddingBottom="24dp"
+                android:paddingBottom="@dimen/large_activity_vertical_margin"
                 android:text="0"
                 android:textSize="56sp"
                 android:textStyle="bold" />
@@ -170,18 +170,18 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                android:layout_marginBottom="@dimen/small_activity_vertical_margin"
+                android:layout_marginLeft="@dimen/large_activity_horizontal_margin"
+                android:layout_marginRight="@dimen/large_activity_horizontal_margin"
                 android:onClick="addGoalForTeamB"
                 android:text="@string/goal" />
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp">
+                android:layout_marginBottom="@dimen/small_activity_vertical_margin"
+                android:layout_marginLeft="@dimen/large_activity_horizontal_margin"
+                android:layout_marginRight="@dimen/large_activity_horizontal_margin">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -195,14 +195,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginRight="16dp"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
                     android:layout_toLeftOf="@+id/team_b_shots_button"
                     android:text="0" />
 
                 <Button
                     android:id="@+id/team_b_shots_button"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_width="@dimen/square_button_length"
+                    android:layout_height="@dimen/square_button_length"
                     android:layout_alignParentRight="true"
                     android:onClick="addShotForTeamB"
                     android:text="+"
@@ -213,9 +213,9 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp">
+                android:layout_marginBottom="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/large_activity_horizontal_margin"
+                android:layout_marginRight="@dimen/large_activity_horizontal_margin">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -229,14 +229,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginRight="16dp"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
                     android:layout_toLeftOf="@+id/team_b_on_target_button"
                     android:text="0" />
 
                 <Button
                     android:id="@+id/team_b_on_target_button"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_width="@dimen/square_button_length"
+                    android:layout_height="@dimen/square_button_length"
                     android:layout_alignParentRight="true"
                     android:onClick="addOnTargetForTeamB"
                     android:text="+"
@@ -246,9 +246,9 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
-                android:layout_marginLeft="24dp"
-                android:layout_marginRight="24dp"
+                android:layout_marginBottom="@dimen/small_activity_vertical_margin"
+                android:layout_marginLeft="@dimen/large_activity_horizontal_margin"
+                android:layout_marginRight="@dimen/large_activity_horizontal_margin"
                 android:onClick="addOwnGoalForTeamB"
                 android:text="@string/own_goal" />
         </LinearLayout>
@@ -259,9 +259,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="22dp"
-        android:layout_marginRight="22dp"
+        android:layout_marginBottom="@dimen/small_activity_vertical_margin"
         android:onClick="resetScore"
         android:text="@string/reset" />
 </RelativeLayout>
